@@ -94,11 +94,11 @@ img {
 }
 
 .form-cta button::after {
-  content: "";
+  content: '';
   display: inline-block;
   width: 10px;
   height: 20px;
-  background: url("../img/seta.svg");
+  background: url(images/seta.svg);
   margin-left: 20px;
 }
 
@@ -182,8 +182,6 @@ section h1 {
   max-width: 65%;
 }
 
-/* F.A.Q. */
-
 .faq {
   width: 100%;
 }
@@ -214,11 +212,11 @@ section h1 {
 }
 
 .faq-question::after {
-  content: " ";
+  content: ' ';
   display: block;
   width: 20px;
   height: 20px;
-  background: url("../img/fechar.svg") no-repeat center center;
+  background: url(/images/fechar.svg) no-repeat center center;
   transform: rotate(45deg);
 }
 
@@ -240,8 +238,6 @@ section h1 {
   max-height: 1200px;
 }
 
-/* Footer */
-
 .footer .form-cta {
   margin-top: 0;
 }
@@ -259,8 +255,6 @@ section h1 {
   color: #757575;
   font-size: 13px;
 }
-
-/* Responsivo */
 
 @media (max-width: 800px) {
   .header {
